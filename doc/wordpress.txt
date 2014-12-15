@@ -1,0 +1,19 @@
+[mathjax]
+
+This project was made as an exercise in dynamic HTML manipulation.  It's a clone of a classic code guessing game where the player plays against the computer.
+
+<h3>Links</h3>
+
+<a href="http://www.aidansean.com/mastermind">Live page</a>
+<a href="https://github.com/aidansean/mastermind">GitHub repository</a>
+
+<h3>Overview</h3>
+
+The user has to guess the code and gets a score in the form of \(S=10A+B\) where '\(A\) is the number of correct guesses in the correct place and \(B\) is the number of correct guesses in the wrong place.
+
+<h3>Challenges</h3>
+<dl>
+<dt><em>Challenge</em>: The number of rows and columns must match the user input and be maintained correctly..</dt>
+
+<dd><em>Solution</em>: This was the main purpose of the project, to investigate the safest and most performant way to achieve this.  It's mostly a matter of bookkeeping once it was achieved it made many future projects much easier. (Resolved)</dd>
+</dl>

@@ -1,0 +1,42 @@
+table#game_board{
+  margin : auto ;
+  border-collapse : separate ;
+  cell-spacing : 10px ;
+}
+td.td_code, td.td_score, th.th_score, th#th_code{
+  border : 2px solid black ;
+  text-align : center ;
+  vertical-align : middle ;
+}
+td.td_code{
+  width : 50px ;
+  height : 50px ;
+  font-size : 30pt ;
+}
+td.td_score{
+  width : 100px ;
+  height : 50px ;
+  font-size : 30pt ;
+}
+td.red   { background-color : #FFDDDD ; }
+td.orange{ background-color : #FF8C00 ; }
+td.yellow{ background-color : #FFFF00 ; }
+td.green { background-color : #88FF88 ; }
+td.blue  { background-color : #DDDDFF ; }
+td.purple{ background-color : #FFDDFF ; }
+td.aqua  { background-color : #DDFFFF ; }
+td.grey  { background-color : #DDDDDD ; }
+td#td_playAgain{
+  text-align : center ;
+  font-size : 24pt ;
+}
+input.submit{
+  width : 100% ;
+}
+input#submit_playAgain{
+  width : 100% ;
+  height : 50px ;
+}
+input#input_code_length{
+  width : 2em ;
+}
